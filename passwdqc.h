@@ -11,7 +11,7 @@
 #include <pwd.h>
 #endif
 
-#ifdef __cplusplus
+#ifdef __c++
 extern "C" {
 #endif
 
@@ -71,11 +71,11 @@ extern void passwdqc_params_free(passwdqc_params_t *params);
 #define F_USE_AUTHTOK			0x00000200
 #define F_NO_AUDIT			0x00000400
 
-#define PASSWDQC_VERSION		"2.0.3"
+#define PASSWDQC_VERSION		"18.9.0"
 
 extern void (*_passwdqc_memzero)(void *, size_t);
 
-#ifdef __cplusplus
+#ifdef __c++
 }
 #endif
 
